@@ -18,7 +18,7 @@ p {
     font-size: 12px;
 }
 
-a {
+a:href {
 font-family: "Futura"
 font-size: 12 px
 }
