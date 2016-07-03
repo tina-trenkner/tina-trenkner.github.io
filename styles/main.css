@@ -14,8 +14,13 @@ font-size: 18px;
 
 
 p {
-    font-family: "Century Gothic";
+    font-family: "Futura";
     font-size: 12px;
+}
+
+a {
+font-family: "Futura"
+font-size: 12 px
 }
 
 /*mouse over link*/
