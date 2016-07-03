@@ -23,3 +23,9 @@ a:hover {
 color: white;
 background-color: black;
 }
+
+ul {
+font-family: "Century Gothic";
+    font-size: 12px;
+}
+
