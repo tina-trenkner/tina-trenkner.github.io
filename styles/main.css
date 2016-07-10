@@ -1,40 +1,47 @@
 
 
-h2
-{ font-family: "Futura"; sans-seri";
-font-size: 24px;
-background-color: black;
-color: white;
+h2 { 
+  font-family: "Futura"; sans-seri";
+  font-size: 24px;
+  background-color: black;
+  color: white;
 }
 
-h3
-{ font-family: "Futura"; sans-serif;
+h3 { 
+font-family: "Futura"; sans-serif;
 font-size: 18px;
 }
-
 
 p {
     font-family: "Futura";
     font-size: 12px;
-}
+  }
 
 a:href {
-font-family: "Futura"
-font-size: 12 px
+  font-family: "Futura"
+  font-size: 12 px
 }
 
 /*mouse over link*/
 a:hover {
-color: white;
-background-color: black;
+  color: white;
+  background-color: black;
 }
 
-ul li {
-font-family: "Futura"; sans-serif;
+#index {
+  font-family: "Futura"; sans-serif;
+  font-size: 12px;
+  float: right;
+}
+
+
+
+li {
+  font-family: "Futura"; sans-serif;
     font-size: 12px;
 }
 
 iframe {
-float: right
-margin: 10px
+  float: right
+  margin: 15px
 }
