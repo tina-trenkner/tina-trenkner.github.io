@@ -1,21 +1,56 @@
 
-h2 {
-  background-color: black;
-  color: white;
-  font-style: "Futura", "sans-serif";
+p {
+  font-size: 1.2em;
 }
 
-
-h3 {
-  background-color: black;
-  color: white;
-  font-style: "Futura", "sans-serif";
+ul {
+  font-size: 1.2em;
 }
 
-h4 {
+.navigation {
+  width: 100%;
   background-color: black;
   color: white;
-  font-style: "Futura", "sans-serif";
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  font-family: "Avenir";
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.titles {
+  font-family: "Avenir";
+  text-transform: uppercase;
+}
+
+.body {
+  font-family: "Avenir";
+}
+
+#contact {
+  text-align: center;
+}
+
+#inprocess {
+  background-color: red;
+  color: white;
+  width: 100%;
+  font-family: "Avenir";
+  padding: 10px 0px 10px 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  h2 {
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+  }
 }
 
 
