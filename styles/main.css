@@ -1,10 +1,18 @@
 
 p {
+  font-size: 1.3em;
+}
+
+ul li {
   font-size: 1.2em;
 }
 
-ul {
+.text {
   font-size: 1.2em;
+}
+
+.button {
+
 }
 
 .navigation {
@@ -16,10 +24,21 @@ ul {
   font-family: "Avenir";
 }
 
-.footer {
+#inprocess {
+  background-color: red;
+  color: white;
   width: 100%;
+  font-family: "Avenir";
+  padding: 15px;
+}
+
+.blog { 
   background-color: black;
   color: white;
+  width: 100%;
+  font-family: "Avenir";
+  padding: 15px;
+
 }
 
 .titles {
@@ -31,27 +50,54 @@ ul {
   font-family: "Avenir";
 }
 
-#contact {
-  text-align: center;
-}
-
-#inprocess {
-  background-color: red;
-  color: white;
+.footer {
   width: 100%;
-  font-family: "Avenir";
-  padding: 10px 0px 10px 10px;
+  background-color: black;
+  color: white;
 }
 
-@media only screen and (min-width: 800px) {
+#contact {
+  font-family: "Avenir";
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Media queries for mobile users */
+
+@media only screen and (max-width: 700px) {
   h2 {
+    font-size: 1.85em;
     width: 100%;
+    text-align: center;
   }
 
   h3 {
-    width: 100%;
+    font-size: 1.5em;
+  }
+
+  ul {
+    font-size: 1em;
   }
 }
+
+@media only screen and (min-width: 699px) {
+  h2 {  
+    font-size: 1.7em;
+    width: 100%;
+    text-align: center;
+   } 
+
+  ul {
+    font-size: 1.25em;
+  }
+}
+
+
+
+
+
+
 
 
 
