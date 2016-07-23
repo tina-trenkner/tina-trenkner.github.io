@@ -16,6 +16,7 @@ ul li {
 }
 
 #tina {
+ color: white; 
  text-decoration: none; /* no underline */
 }
 
@@ -65,6 +66,8 @@ ul li {
   font-family: "Avenir";
   text-align: center;
   padding: 10px;
+  color: white; 
+  text-decoration: none; /* no underline */
 }
 
 
