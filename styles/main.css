@@ -15,6 +15,10 @@ ul li {
 
 }
 
+#tina {
+ text-decoration: none; /* no underline */
+}
+
 .navigation {
   width: 100%;
   background-color: black;
@@ -37,6 +41,7 @@ ul li {
   color: white;
   width: 100%;
   font-family: "Avenir";
+  text-transform: uppercase;
   padding: 15px;
 
 }
