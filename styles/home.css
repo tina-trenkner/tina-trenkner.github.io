@@ -1,0 +1,68 @@
+html {
+  background-image: linear-gradient(#89216B, #DA4453);
+}
+
+h1, h2, h3, h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+button {
+  background: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  border-radius: 0;
+  letter-spacing: 1.5px;
+  border: black;
+}
+
+button:hover {
+  color: #D3D3D3;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #D3D3D3;
+}
+
+.fas, .fab {
+  color: white;
+  padding: 1rem;
+}
+
+.fas:hover, .fab:hover {
+  color: #D3D3D3;
+}
+
+@media only screen and (min-width: 777px ) {
+  h1 {
+      font-size: 7rem;
+  }
+
+  h2 {
+      font-size: 6.5rem;
+      line-height: 4rem;
+  }
+
+  .container {
+      max-width: 420px;
+  }
+
+  .what-I-am {
+    padding: 2rem 0;
+  }
+
+  #fas {
+    padding: 0
+  }
+}
