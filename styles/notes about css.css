@@ -1,0 +1,48 @@
+h2 {
+  background-color: black;
+  color: white;
+  font-style: "Futura", "sans-serif";
+}
+
+
+Avenir seems a little too boring
+
+
+h3 {
+  background-color: black;
+  color: white;
+  font-style: "Futura", "sans-serif";
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  font-style: "Futura", "sans-serif";
+}
+
+
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+           <h4 class="titles">Copyright 2016 &bull; Tina Trenkner-Meade</h4>
+          </div>
+        </div>
+      </div>
+  
+
+   <div class="four columns">
+        <h2 class="titles"><a href="mailto:tinatrenkner@gmail.com">Contact</a></h2>
+        </div>
+
+
+
+
+        @media only screen and (max-width: 700px) {
+  h2 {
+      font-size: 1.9em;
+      width: 100%;
+  }
+}
+
+
+How do I make my links in li's into buttons with a media query? 
