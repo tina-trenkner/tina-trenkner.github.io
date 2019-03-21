@@ -1,0 +1,136 @@
+html {
+  background-image: linear-gradient(#89216B, #DA4453);
+}
+
+body {
+  font-size: 3em;
+}
+
+h1, h2, h3, h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+button {
+  background: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  border-radius: 0;
+  border: black;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 3rem !important;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+button:hover {
+  color: #D3D3D3;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #D3D3D3;
+}
+
+.fas, .fab {
+  color: white;
+}
+
+.fas:hover, .fab:hover {
+  color: #D3D3D3;
+}
+
+  h1 {
+    font-size: 20rem;
+  }
+
+  h2 {
+      font-size: 18rem;
+      line-height: 10rem;
+  }
+
+  h3 {
+    font-size: 8rem;
+  }
+
+  .container {
+      max-width: 80%;
+  }
+
+  .what-I-am {
+    padding: 2rem 0;
+  }
+
+  #fas {
+    padding: 0
+    margin-top: -30px;
+  }
+
+  .fa-4x {
+    padding: 2rem;
+  }
+
+  /* .fa-2x {
+    font-size: 4em !important;
+    padding: 10px;
+  } */
+
+
+
+/*
+  @media (min-width: 750px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 6.5rem;
+        line-height: 4rem;
+    }
+
+    .container {
+        max-width: 420px;
+    }
+
+    .what-I-am {
+      padding: 2rem 0;
+    }
+
+    #fas {
+      padding: 0
+    }
+  } */
+
+  /* mobile queries */
+
+  /* h1 {
+    font-size: 20rem;
+  }
+
+  h2 {
+      font-size: 18rem;
+      line-height: 10rem;
+  }
+
+  .container {
+      max-width: 80%;
+  }
+
+  .what-I-am {
+    padding: 2rem 0;
+  }
+
+  #fas {
+    padding: 0
+  } */
