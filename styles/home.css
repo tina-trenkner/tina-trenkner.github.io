@@ -93,7 +93,7 @@ a:hover {
   body {
      font-size: 2em;
   }
-  
+
   h1 {
       font-size: 9rem;
   }
@@ -105,7 +105,7 @@ a:hover {
 
   h3 {
     font-size: 4rem;
-    margin-top: 0 !important;
+    padding-top: 1.5rem !important;
     margin-bottom: 1rem !important;
   }
 
